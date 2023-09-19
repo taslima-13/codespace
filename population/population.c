@@ -25,7 +25,7 @@ int main(void)
 
     do
     {
-        n = n + (n/3) - (n/4);
+        n = n + (n / 3) - (n / 4);
         years++;
     }
     while (n < end);
