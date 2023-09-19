@@ -23,12 +23,12 @@ int main(void)
     int n = start;
     int years = 0;
 
-    while (n < end)
+    do
     {
         n = n + (n/3) - (n/4);
         years++;
     }
-
+    while (n < end);
 
     // TODO: Print number of years
     printf("years: %i", years);
