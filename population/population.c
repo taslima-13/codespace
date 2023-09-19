@@ -7,7 +7,7 @@ int main(void)
     int start;
     do
     {
-        start = get_int("start size:");
+        start = get_int("startsize:");
     }
     while (start < 9);
 
