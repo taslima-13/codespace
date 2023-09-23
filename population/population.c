@@ -28,7 +28,6 @@ int main(void)
         year++;
     }
 
-
     // TODO: Print number of years
-    printf("years: %i\n",  year);
+    printf("years: %i\n", year);
 }
